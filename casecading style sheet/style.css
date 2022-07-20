@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+.container{
+    background-color: rgb(216, 23, 23);
+    padding-bottom: 60px;
+}
+.section{
+    width: 80%;
+    margin: auto;
+}
+.sizing{
+    width: 100%;
+}
+.logo-part{
+    width: 50%;
+    float: left;
+}
+.logo-part img{
+    width: 150px;
+    height: 80px;
+}
+.manu-part{
+    width: 50%;
+    float: left;
+}
+.hero-part h1{
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+.manu-part ul{
+text-align: end;
+}
+.manu-part li{
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.manu-part a{
+text-transform: capitalize;
+text-decoration: none;
+background-color: rgba(0, 0, 0, 0.217);
+padding: 10px;
+color: white;
+}
+.manu-part a:hover{
+    background-color: rgba(0, 0, 0, 0.649);
+    color: white;
+}
+.hero-part button{
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 20px 70px;
+border-radius: 3px;
+background-color: rgb(254, 137, 64);
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+transition: ease-in-out 0.3s;
+}
+.hero-part button:hover{
+    background-color: transparent;
+    color: white;
+}
+.hero-part a{
+text-decoration: none;
+text-transform: uppercase;
+color: rgba(255, 255, 255, 0.831);
+padding: 10px;
+}
+.hero-part a:hover{
+    background-color: transparent;
+    color: white;
+}
